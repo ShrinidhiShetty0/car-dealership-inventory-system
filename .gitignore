@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+*.db
+
+# Node
+node_modules/
+dist/
+.DS_Store
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.pytest_cache/
+
+# Environment and local secrets
+.env.*
+!.env.example
+
+# Test and coverage reports
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Logs
+*.log
+
+# Local databases
+*.sqlite
+*.sqlite3
+
+# Private local admin utility
+backend/reset_admin_password.py
